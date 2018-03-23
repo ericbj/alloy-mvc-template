@@ -487,9 +487,9 @@
     <None Include="web.Release.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
-    <None Include="web.Test.config">
+    <Content Include="web.Test.config">
       <DependentUpon>web.config</DependentUpon>
-    </None>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Content Include="module.config">
