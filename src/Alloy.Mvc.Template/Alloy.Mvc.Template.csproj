@@ -483,13 +483,16 @@
     </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="web.Release.config">
       <DependentUpon>web.config</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <Content Include="web.Test.config">
+    <None Include="web.Test.config">
       <DependentUpon>web.config</DependentUpon>
-    </Content>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="module.config">
