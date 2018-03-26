@@ -468,6 +468,7 @@
     <Content Include="modules\_protected\Shell\Shell.zip" />
     <Content Include="modules\_protected\CMS\web.config" />
     <Content Include="modules\_protected\CMS\CMS.zip" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Views\_ReadMe.txt" />
     <Content Include="web.config">
       <SubType>Designer</SubType>
@@ -482,16 +483,15 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Web.Debug.config">
-      <DependentUpon>web.config</DependentUpon>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="web.Release.config">
-      <DependentUpon>web.config</DependentUpon>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="web.Test.config">
-      <DependentUpon>web.config</DependentUpon>
+      <SubType>Designer</SubType>
     </Content>
-  
-</ItemGroup>
+  </ItemGroup>
   <ItemGroup>
     <Content Include="module.config">
       <SubType>Designer</SubType>
