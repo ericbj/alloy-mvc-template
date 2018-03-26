@@ -488,9 +488,9 @@
     <Content Include="web.Test.config">
       <SubType>Designer</SubType>
     </Content>
-    <None Include="Web.Release.config">
+    <Content Include="Web.Release.config">
       <SubType>Designer</SubType>
-    </None>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Content Include="module.config">
