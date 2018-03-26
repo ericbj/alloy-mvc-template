@@ -481,19 +481,17 @@
     <Content Include="connectionStrings.config">
       <SubType>Designer</SubType>
     </Content>
-    <None Include="Web.Debug.config">
+    <Content Include="Web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="web.Release.config">
+    </Content>
+    <Content Include="web.Release.config">
       <DependentUpon>web.config</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="web.Test.config">
+    </Content>
+    <Content Include="web.Test.config">
       <DependentUpon>web.config</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
+    </Content>
+  
+</ItemGroup>
   <ItemGroup>
     <Content Include="module.config">
       <SubType>Designer</SubType>
