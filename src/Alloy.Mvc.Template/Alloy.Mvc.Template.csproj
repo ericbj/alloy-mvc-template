@@ -555,8 +555,4 @@
   <Target Name="AfterBuild">
   </Target>
   <Import Project="$(SolutionDir)\build\Templates.targets" />
-  <ItemGroup>
-    <NugetPackage Include="Alloy.Mvc.Template.Search.Sources.nuspec" />
-    <NugetPackage Include="Alloy.Mvc.Template.Sources.nuspec" />
-  </ItemGroup>
 </Project>
